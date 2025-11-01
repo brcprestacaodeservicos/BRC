@@ -5,61 +5,56 @@
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header class="container header">
-  <div class="brand">
-    <div class="logo">BRC</div>
-    <div>
-      <div style="font-weight:800;font-size:18px;">BRC Prestação de Serviços</div>
-      <div class="small">Profissionalismo, confiança e qualidade</div>
+<header class="header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="logo">BRC</div>
+      <div>
+        <div style="font-weight:800;font-size:16px;">BRC Prestação de Serviços</div>
+        <div class="small">Profissionalismo, confiança e qualidade</div>
+      </div>
     </div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="portaria.html">Portaria</a>
+      <a href="limpeza.html">Limpeza</a>
+      <a href="cozinha.html">Cozinha</a>
+      <a href="marido-de-aluguel.html">Marido de Aluguel</a>
+      <a class="cta-header" href="contato.html">Solicitar Orçamento</a>
+    </nav>
   </div>
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="portaria.html">Portaria</a>
-    <a href="limpeza.html">Limpeza</a>
-    <a href="cozinha.html">Cozinha</a>
-    <a href="marido-de-aluguel.html">Marido de Aluguel</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-  <button id="menuBtn" style="display:none">Menu</button>
 </header>
 
-<main class="container">
-  <div class="card" style="display:grid;grid-template-columns:1fr 360px;gap:18px">
-    <div>
+<main class="container" style="margin-top:40px">
+  <div style="display:grid;grid-template-columns:1fr 360px;gap:18px">
+    <div class="card">
       <h1>Fale com a BRC</h1>
-      <p class="small">Preencha o formulário abaixo ou utilize os contatos diretos.</p>
+      <p class="small">Envie sua mensagem ou utilize os contatos diretos abaixo.</p>
       <form onsubmit="alert('Obrigado! Envie seu e-mail para brcprestacaodeservicos@gmail.com ou ligue (11) 97317-7616'); return false;">
-        <label class="small">Nome<br><input required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefc"></label><br><br>
-        <label class="small">E-mail<br><input required type="email" style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefc"></label><br><br>
-        <label class="small">Mensagem<br><textarea required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eefc" rows="6"></textarea></label><br><br>
-        <button class="cta" type="submit">Enviar</button>
+        <label class="small">Nome<br><input required style="width:100%;padding:12px;border-radius:8px;border:1px solid #e6eefc"></label><br><br>
+        <label class="small">E-mail<br><input required type="email" style="width:100%;padding:12px;border-radius:8px;border:1px solid #e6eefc"></label><br><br>
+        <label class="small">Mensagem<br><textarea required style="width:100%;padding:12px;border-radius:8px;border:1px solid #e6eefc" rows="6"></textarea></label><br><br>
+        <button class="cta-header" type="submit">Enviar Mensagem</button>
       </form>
     </div>
-    <aside>
-      <div class="card">
-        <h3>Contato direto</h3>
-        <div class="small">Telefone</div>
-        <div style="font-weight:800">(11) 97317-7616</div>
-        <div class="small" style="margin-top:8px">E-mail</div>
-        <div>brcprestacaodeservicos@gmail.com</div>
-        <div class="small" style="margin-top:8px">Endereço</div>
-        <div class="address">Rua Holambra, 231, Colinas Maria Luiza, Cajamar, SP</div>
-      </div>
-      <div class="card" style="margin-top:12px">
-        <h3 class="section-title">Horário de atendimento</h3>
-        <p class="small">Segunda a Sexta — 08:00 às 18:00</p>
-        <p class="small">Atendimento emergencial sob disponibilidade.</p>
+    <aside class="contact-card">
+      <div class="small">Contato</div>
+      <div style="font-weight:800;font-size:18px">(11) 97317-7616</div>
+      <div class="small" style="margin-top:8px">brcprestacaodeservicos@gmail.com</div>
+      <div class="small" style="margin-top:12px">Endereço</div>
+      <div class="small" style="font-weight:700">Rua Holambra, 231, Colinas Maria Luiza, Cajamar, SP</div>
+      <div style="margin-top:12px">
+        <a class="small" href="https://www.google.com/maps/search/?api=1&query=Rua+Holambra+231+Cajamar" target="_blank">Ver no mapa</a>
       </div>
     </aside>
   </div>
+
+  <footer class="footer" style="margin-top:18px">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <div>© 2025 BRC Prestação de Serviços</div>
+      <div class="small">(11) 97317-7616 · brcprestacaodeservicos@gmail.com</div>
+    </div>
+  </footer>
 </main>
-<footer class="container footer">
-  <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
-    <div>© 2025 BRC Prestação de Serviços</div>
-    <div class="small">(11) 97317-7616 · brcprestacaodeservicos@gmail.com</div>
-  </div>
-</footer>
-<script src="assets/script.js"></script>
 </body>
 </html>

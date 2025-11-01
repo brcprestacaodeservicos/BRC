@@ -7,106 +7,107 @@
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header class="container header">
-  <div class="brand">
-    <div class="logo">BRC</div>
-    <div>
-      <div style="font-weight:800;font-size:18px;">BRC Prestação de Serviços</div>
-      <div class="small">Profissionalismo, confiança e qualidade</div>
+<header class="header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="logo">BRC</div>
+      <div>
+        <div style="font-weight:800;font-size:16px;">BRC Prestação de Serviços</div>
+        <div class="small">Profissionalismo, confiança e qualidade</div>
+      </div>
     </div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="portaria.html">Portaria</a>
+      <a href="limpeza.html">Limpeza</a>
+      <a href="cozinha.html">Cozinha</a>
+      <a href="marido-de-aluguel.html">Marido de Aluguel</a>
+      <a class="cta-header" href="contato.html">Solicitar Orçamento</a>
+    </nav>
   </div>
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="portaria.html">Portaria</a>
-    <a href="limpeza.html">Limpeza</a>
-    <a href="cozinha.html">Cozinha</a>
-    <a href="marido-de-aluguel.html">Marido de Aluguel</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-  <button id="menuBtn" style="display:none">Menu</button>
 </header>
 
-<main class="container">
-  <section class="hero">
-    <div>
-      <h1>BRC — Soluções completas em serviços</h1>
-      <p class="lead">BRC Prestação de Serviços oferece portaria, limpeza, cozinha e pequenos reparos com equipe treinada e foco em satisfação do cliente.</p>
-      <a class="cta" href="contato.html">Solicitar orçamento</a>
-      <div class="card" style="margin-top:18px">
-        <h3 class="section-title">Quem somos</h3>
-        <p>A BRC é uma empresa especializada em serviços terceirizados e soluções sob demanda, atuando com seriedade e compromisso em Cajamar e região.</p>
-        <h3 class="section-title" style="margin-top:12px">Missão</h3>
-        <p>Prover serviços de alta qualidade que facilitem a rotina dos nossos clientes, com segurança, eficiência e transparência.</p>
-        <h3 class="section-title" style="margin-top:12px">Visão</h3>
-        <p>Ser referência regional em prestação de serviços, reconhecida por excelência operacional e confiança.</p>
-        <h3 class="section-title" style="margin-top:12px">Valores</h3>
-        <ul class="values">
-          <li>Ética e transparência</li>
-          <li>Compromisso com o cliente</li>
-          <li>Profissionalismo e capacitação</li>
-          <li>Sustentabilidade</li>
-        </ul>
-      </div>
-    </div>
-    <aside>
-      <div class="card">
-        <h3>Contato</h3>
-        <div class="contact-pill">
-          <div class="small">Telefone</div>
-          <div style="font-weight:800">(11) 97317-7616</div>
-          <div class="small" style="margin-top:8px">E-mail</div>
-          <div style="word-break:break-all">brcprestacaodeservicos@gmail.com</div>
-          <div class="small" style="margin-top:8px">Endereço</div>
-          <div class="address">Rua Holambra, 231, Colinas Maria Luiza, Cajamar, SP</div>
+<main>
+  <section class="hero-wrap">
+    <div class="hero container">
+      <div>
+        <h1>BRC — Serviços confiáveis para empresas e residências</h1>
+        <p class="lead">Equipe treinada, processos padronizados e soluções sob medida em Portaria, Limpeza, Cozinha e Manutenção geral.</p>
+        <p style="margin-top:14px"><a class="cta-header" href="contato.html">Solicite um orçamento</a></p>
+
+        <div style="margin-top:22px" class="card">
+          <h3 class="section-title">Quem somos</h3>
+          <p class="small">BRC é especializada em prestação de serviços terceirizados com foco na excelência operacional, segurança e satisfação do cliente.</p>
+          <div style="display:flex;gap:12px;margin-top:12px;flex-wrap:wrap">
+            <div class="small"><strong>Missão:</strong> Prover serviços de qualidade com responsabilidade.</div>
+            <div class="small"><strong>Visão:</strong> Ser referência regional em prestação de serviços.</div>
+            <div class="small"><strong>Valores:</strong> Ética, compromisso e melhoria contínua.</div>
+          </div>
         </div>
       </div>
-      <div class="card" style="margin-top:12px">
-        <h3 class="section-title">Atuação e vantagens</h3>
-        <p class="small"><strong>Demanda do cliente:</strong> atendemos sob contratos recorrentes e chamados avulsos.</p>
-        <p class="small"><strong>Serviços intangíveis:</strong> gestão, supervisão, treinamento e prestação direta.</p>
-        <p class="small"><strong>Variedade:</strong> portaria, limpeza, cozinha e pequenos reparos.</p>
-        <p class="small"><strong>Modelo de negócio:</strong> prestação terceirizada por hora ou contrato mensal.</p>
-        <p class="small"><strong>Especialização:</strong> equipes treinadas e certificadas conforme necessidade.</p>
-        <p class="small"><strong>Vantagens:</strong> redução de custos administrativos, qualidade garantida e flexibilidade.</p>
+      <div class="hero-visual card">
+        <img src="assets/banner.svg" alt="BRC banner">
       </div>
-    </aside>
+    </div>
   </section>
 
-  <section style="margin-top:20px">
-    <h2>Serviços</h2>
+  <section class="container" style="margin-top:18px">
+    <h2 class="section-title">Nossos Serviços</h2>
     <div class="grid">
-      <a class="service-item card" href="portaria.html">
-        <img src="assets/portaria.svg" alt="Portaria" class="responsive">
+      <a class="card service-item" href="portaria.html">
+        <img src="assets/portaria_large.svg" alt="Portaria">
         <h3>Portaria</h3>
-        <p class="small">Controle de acesso, monitoramento e recepção profissional.</p>
+        <p class="small">Controle de acesso, segurança e recepção com equipe capacitada.</p>
       </a>
-      <a class="service-item card" href="limpeza.html">
-        <img src="assets/limpeza.svg" alt="Limpeza" class="responsive">
+      <a class="card service-item" href="limpeza.html">
+        <img src="assets/limpeza_large.svg" alt="Limpeza">
         <h3>Limpeza</h3>
-        <p class="small">Limpeza residencial e comercial com produtos e protocolos modernos.</p>
+        <p class="small">Serviços residenciais, corporativos e pós-obra com supervisão técnica.</p>
       </a>
-      <a class="service-item card" href="cozinha.html">
-        <img src="assets/cozinha.svg" alt="Cozinha" class="responsive">
+      <a class="card service-item" href="cozinha.html">
+        <img src="assets/cozinha_large.svg" alt="Cozinha">
         <h3>Cozinha</h3>
-        <p class="small">Cozinheiros e auxiliares para eventos, refeitórios e serviços periódicos.</p>
+        <p class="small">Cozinheiros e auxiliares para refeitórios, eventos e serviços periódicos.</p>
       </a>
-      <a class="service-item card" href="marido-de-aluguel.html">
-        <img src="assets/marido.svg" alt="Marido de aluguel" class="responsive">
+      <a class="card service-item" href="marido-de-aluguel.html">
+        <img src="assets/marido_large.svg" alt="Marido de Aluguel">
         <h3>Marido de Aluguel</h3>
-        <p class="small">Montagem, pequenos reparos, elétrica básica e hidráulica leve.</p>
+        <p class="small">Montagem, reparos leves, elétrica básica e manutenção preventiva.</p>
       </a>
     </div>
   </section>
 
+  <section class="container" style="margin-top:28px">
+    <div style="display:grid;grid-template-columns:1fr 360px;gap:20px;align-items:start">
+      <div class="card">
+        <h3 class="section-title">Por que contratar a BRC?</h3>
+        <ul class="small">
+          <li>Redução de custos operacionais e administrativos.</li>
+          <li>Equipes treinadas e supervisionadas.</li>
+          <li>Flexibilidade: contratos mensais, por hora ou avulsos.</li>
+          <li>Relatórios e controle de qualidade.</li>
+        </ul>
+        <h3 class="section-title" style="margin-top:16px">Foco em atividades</h3>
+        <p class="small"><strong>Demanda do cliente:</strong> atendimento sob medida, com SLA definido. <strong>Serviços intangíveis:</strong> gestão e supervisão. <strong>Variedade:</strong> operação, limpeza, cozinha e manutenção. <strong>Modelo de negócio:</strong> terceirização e contratos recorrentes.</p>
+      </div>
+      <aside class="contact-card">
+        <div class="small">Contato</div>
+        <div style="font-weight:800;font-size:18px">(11) 97317-7616</div>
+        <div class="small" style="margin-top:8px">brcprestacaodeservicos@gmail.com</div>
+        <div class="small" style="margin-top:12px">Endereço</div>
+        <div class="small" style="font-weight:700">Rua Holambra, 231, Colinas Maria Luiza, Cajamar, SP</div>
+        <p style="margin-top:12px"><a href="contato.html" class="cta-header">Fale conosco</a></p>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="footer container">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <div>© 2025 BRC Prestação de Serviços — Todos os direitos reservados.</div>
+      <div class="small">Rua Holambra, 231, Colinas Maria Luiza, Cajamar, SP · (11) 97317-7616</div>
+    </div>
+  </footer>
 </main>
 
-<footer class="container footer">
-  <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
-    <div>© 2025 BRC Prestação de Serviços — Todos os direitos reservados.</div>
-    <div class="small">Rua Holambra, 231, Colinas Maria Luiza, Cajamar, SP · (11) 97317-7616</div>
-  </div>
-</footer>
-
-<script src="assets/script.js"></script>
 </body>
 </html>

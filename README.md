@@ -1,5 +1,4 @@
-
-# BRC Prestação de Serviços — Site estático
+# BRC Prestação de Serviços — Site estático (versão moderna)
 
 Arquivos prontos para publicar no GitHub Pages.
 
@@ -10,4 +9,5 @@ Arquivos prontos para publicar no GitHub Pages.
 4. Acesse `https://<seu-usuario>.github.io/<seu-repositorio>/`
 
 ## Observações
-- Todas as páginas são estáticas (HTML/CSS/JS). Para formulários reais, configure um backend ou serviço de formulários.
+- As imagens atuais são placeholders em SVG; para maior profissionalismo substitua por fotos reais (faça upload em `assets/`).
+- Para formulários reais, integre com Formspree, Netlify Forms, ou um backend.
