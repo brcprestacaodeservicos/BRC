@@ -1,0 +1,13 @@
+
+# BRC Prestação de Serviços — Site estático
+
+Arquivos prontos para publicar no GitHub Pages.
+
+## Como publicar
+1. Crie um repositório no GitHub.
+2. Faça commit dos arquivos deste diretório (`index.html`, `*.html`, `assets/`).
+3. No GitHub: Settings -> Pages -> Branch `main` (ou `gh-pages`) -> salvar.
+4. Acesse `https://<seu-usuario>.github.io/<seu-repositorio>/`
+
+## Observações
+- Todas as páginas são estáticas (HTML/CSS/JS). Para formulários reais, configure um backend ou serviço de formulários.
